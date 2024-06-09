@@ -1,3 +1,5 @@
+import { Highlight } from "@/components/Highlight";
+
 export const products = [
   {
     href: "https://project-bridge-hruxf4oyz-aditya-abhirams-projects.vercel.app/",
@@ -99,13 +101,13 @@ export const products = [
           <b> Features: </b>
           <ul>
             <li>
-            <b><i>Script Execution: </i></b> Initiate script execution with the "Start" button, seamlessly running a series of scripts one after the other (or phase-wise).
+            <b><i>Script Execution: </i></b> Initiate script execution with the <Highlight>Start button</Highlight>, seamlessly running a series of scripts one after the other (or phase-wise).
             </li>
             <li>
             <b><i>Phase Management: </i></b> Organize scripts into phases for sequential execution.
             </li>
             <li>
-            <b><i>CSV Upload and Validation: </i></b> Upload your input CSV file effortlessly with a simple drag-and-drop feature to give input to the scripts and validate your CSV file against predefined criteria using the "Check CSV" button.
+            <b><i>CSV Upload and Validation: </i></b> Upload your input CSV file effortlessly with a simple drag-and-drop feature to give input to the scripts and validate your <Highlight>CSV file</Highlight> against predefined criteria using the Check CSV button.
             </li>
             <li>
             <b><i>Progress Tracking:  </i></b> Monitor the progress of the script execution in real-time, knowing exactly which script is currently running.

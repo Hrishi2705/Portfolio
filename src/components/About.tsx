@@ -10,7 +10,7 @@ export default function About() {
     <div>
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I'm Hrishikesh - a passionate developer with a strong foundation in computer science concepts from my studies at BITS Pilani.
+          Hey there, I&apos;m Hrishikesh - a passionate developer with a strong foundation in computer science concepts from my studies at BITS Pilani.
           
           
         </Paragraph>

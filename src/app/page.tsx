@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <Container>
       <span className="text-4xl">👋</span>
-      <Heading className="font-black">Hi! &nbsp; I'm Hrishikesh</Heading>
+      <Heading className="font-black">Hi! &nbsp; I&apos;m Hrishikesh</Heading>
       <Paragraph className="max-w-xl mt-4">
         A full-stack developer that loves{" "}
         <Highlight>building web apps </Highlight>
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I'm a {""} <Highlight>BITS Pilani Graduate</Highlight> with{" "}
+        I&apos;m a {""} <Highlight>BITS Pilani Graduate</Highlight> with{" "}
         a Degree in Electronics & Communications Engineering, along with a Minor in Computing & Intelligence.
       </Paragraph>
       {/* <Heading
