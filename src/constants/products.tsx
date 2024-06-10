@@ -6,7 +6,7 @@ export const products = [
     repolink: "https://github.com/Hrishi2705/Project-Bridge",
     title: "Project Bridge",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "A MERN app simplifying project applications for students and professors.",
     thumbnail: "/images/project-bridge/loginpage.png",
     images: [
       "/images/project-bridge/teacher_home.png",
@@ -21,21 +21,91 @@ export const products = [
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        Project Bridge is a comprehensive platform facilitating streamlined project request management, efficient
+        communication between teachers and students, and smart filtering for project allocation.{" "}
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+
+      <h2>Tech Stack</h2>
+      {/* <p><Highlight>MERN</Highlight>, <Highlight>FIREBASE</Highlight></p> */}
+      <ol>
+        <li>Database: <Highlight>MongoDB</Highlight></li>
+        <li>Backend: <Highlight>Express.js</Highlight>, <Highlight>Node.js</Highlight></li>
+        <li>Frontend: <Highlight>React.js</Highlight></li>
+        <li>Login: <Highlight>Google Auth(Firebase)</Highlight></li>
+        <li>File Storage: <Highlight>Google Cloud Storage</Highlight></li>
+      </ol>
+
+      {/* <h2>Web Application Functionalities</h2>
+      <p>The web application supports three types of users: Professor, Student, and Admin.</p>
+
+      <details>
+        <summary><b>User Login</b></summary>
+        <p>Google Firebase Authentication is used so that users can directly login via their BITS google accounts.</p>
+      </details>
+
+      <details>
+        <summary><b>Professor Side Functionalities</b></summary>
+        <ol>
+          <li><b>Login</b>: Professors log in using their BITS Google account.</li>
+
+          <li><b>Home Page</b>: Professors can create new projects (name, description, number of slots, project type, pre-requisites). They can edit or delete projects, with changes reflected instantly on the webpage.</li>
+          
+          <li><b>Requests Page</b>: Professors can view all student requests for their projects in a tabular format. Information includes CG eligibility, degree, resume, performance sheet, pre-requisites fulfilled, and a short paragraph written by the student. Professors can accept or reject requests and undo decisions if necessary.</li>
+          
+          <li><b>Profile Page</b>: Professors can fill out their basic details, such as name, department, room number, and block/building.</li>
+          
+        </ol>
+      </details>
+
+      <details>
+        <summary><b>Student Side Functionalities</b></summary>
+        <ol>
+          <li><b>Login</b>: Students log in using their BITS Google account.</li>
+
+          <li><b>Home Page</b>: Displays the status of current requests sent by the students (accepted/rejected/pending).</li>
+          
+          <li><b>Project Bank</b>: Lists all projects by every teacher and department. Students can view project details, apply for projects, save drafts, like projects, and filter projects by various criteria. Requests are sent without the need to reload the page.</li>
+          
+          <li><b>Profile Page</b>: Students can fill in their basic information (ID number, branch, current CGPA) and upload their resume and performance sheet.</li>
+          
+        </ol>
+      </details>
+
+      <details>
+        <summary><b>Admin Functionalities</b></summary>
+        <p>Admins can view various statistics related to projects and requests, such as projects per department, average requests per department, project slots with respect to departments, and project type distribution, displayed in graphs (line, bar, pie chart, etc.).</p>
+        {" "}
+      </details>{" "} */}
+      <p style={{marginBottom:'2rem'}}>
+
+        <h2>Web Application Functionalities</h2>
+        <p>The web application supports three types of users: Professor, Student, and Admin.</p>
+
+        <h3>User Login</h3>
+        <p>Google Firebase Authentication is used so that users can directly login via their BITS google accounts.</p>
+
+        <h3>Professor Side Functionalities</h3>
+        <ul>
+          <li><b>Login</b>: Professors log in using their BITS Google account.</li>
+          <li><b>Home Page</b>: Professors can create new projects (name, description, number of slots, project type, pre-requisites). They can edit or delete projects, with changes reflected instantly on the webpage.</li>
+          <li><b>Requests Page</b>: Professors can view all student requests for their projects in a tabular format. Information includes CG eligibility, degree, resume, performance sheet, pre-requisites fulfilled, and a short paragraph written by the student. Professors can accept or reject requests and undo decisions if necessary.</li>
+          <li><b>Profile Page</b>: Professors can fill out their basic details, such as name, department, room number, and block/building.</li>
+        </ul>
+
+        <h3>Student Side Functionalities</h3>
+        <ul>
+          <li><b>Login</b>: Students log in using their BITS Google account.</li>
+          <li><b>Home Page</b>: Displays the status of current requests sent by the students (accepted/rejected/pending).</li>
+          <li><b>Project Bank</b>: Lists all projects by every teacher and department. Students can view project details, apply for projects, save drafts, like projects, and filter projects by various criteria. Requests are sent without the need to reload the page.</li>
+          <li><b>Profile Page</b>: Students can fill in their basic information (ID number, branch, current CGPA) and upload their resume and performance sheet.</li>
+        </ul>
+
+        <h3>Admin Functionalities</h3>
+        <ul>
+        <li>Admins can view various statistics related to projects and requests, such as projects per department, average requests per department, project slots with respect to departments, and project type distribution, displayed in graphs (line, bar, pie chart, etc.).</li>
+        </ul>
+
+      </p>{" "}
       </div>
     ),
   },
@@ -44,7 +114,7 @@ export const products = [
     repolink: "https://github.com/Hrishi2705/Admin-Dashboard",
     title: "Sales Admin Dashboard",
     description:
-      "The Sales Admin Dashboard is a website designed to streamline sales management processes. ",
+      "Webapp designed to streamline sales management processes.",
     thumbnail: "/images/admin-dashboard/page1.png",
     images: [
       "/images/admin-dashboard/page1.png",
@@ -82,7 +152,7 @@ export const products = [
     repolink: "https://github.com/Hrishi2705/Pipeline-Interface",
     title: "Pipeline Interface",
     description:
-      "This interface is a versatile Express.js application designed to streamline and automate the execution of a chain of scripts.",
+      "Application designed to streamline and automate the execution of a chain of scripts.",
     thumbnail: "/images/pipeline-interface/page1.png",
     images: [
       "/images/pipeline-interface/page1.png",
@@ -125,10 +195,10 @@ export const products = [
     repolink: "https://github.com/Hrishi2705/Timing-Consensus-Scheduler",
     title: "Timing Consensus Scheduler",
     description:
-      "TCS is a web application that allows users to manage their availability, book facilities, and check the availability of other users.",
+      "Webapp that allows users to manage their availability, book facilities, and check the availability of other users.",
     thumbnail: "/images/tcs/page0.png",
     images: [
-      "/images/tcs/page0.png",
+      // "/images/tcs/page0.png",
       "/images/tcs/page1.png",
       "/images/tcs/page2.png",
       "/images/tcs/page3_2.png",

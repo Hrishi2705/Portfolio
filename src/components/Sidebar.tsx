@@ -26,7 +26,7 @@ export const Sidebar = () => {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ x: -200 }}
+            initial={{ x: -215 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
