@@ -47,7 +47,7 @@ export default function Education() {
                     Minor in Computation and Intelligence
                 </Paragraph>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    <b>CGPA:</b> 7.3/10
+                    <b>CGPA:</b> 7.35/10
                 </Paragraph>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
                     <b>CourseWork:</b> Data Structures and Algorithms, Operating Systems, Artificial Intelligence, Software Engineering, Cryptography
