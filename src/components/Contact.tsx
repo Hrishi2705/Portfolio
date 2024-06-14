@@ -104,7 +104,7 @@ export const Contact = () => {
           transition={{ duration: 0.2, delay: 1 * 0.1 }}
         >
           <Link
-            href="mailto:hrishikesh.sam09@gmail.com?Subject=From%20Portfolio!"
+            href="mailto:hrishikeshsamala@gmail.com?Subject=From%20Portfolio!"
             target="_blank"
 
             className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
@@ -119,7 +119,7 @@ export const Contact = () => {
                   Email me at
                 </Heading>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    hrishikesh.sam09@gmail.com
+                    hrishikeshsamala@gmail.com
                 </Paragraph>
               </div>
             </div>
