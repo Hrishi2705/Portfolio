@@ -1,10 +1,33 @@
 import Image from "next/image";
-import React from "react";
-import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
+import { Heading } from "./Heading";
 
 export const TechStack = () => {
   const stack = [
+    {
+      title: "React",
+      src: "/images/logos/react.png",
+
+      className: "h-12 w-12",
+    },
+    {
+      title: "Nest JS",
+      src: "/images/logos/nestjs.png",
+
+      className: "h-12 w-12",
+    },
+    {
+      title: "My SQL",
+      src: "/images/logos/mysql.png",
+
+      className: "h-12 w-12",
+    },
+    {
+      title: "Node",
+      src: "/images/logos/node.png",
+
+      className: "h-14 w-16",
+    },
     {
       title: "MongoDB",
       src: "/images/logos/mongo.png",
@@ -18,35 +41,23 @@ export const TechStack = () => {
       className: "h-12 w-24",
     },
     {
-      title: "React",
-      src: "/images/logos/react.png",
-
-      className: "h-12 w-12",
-    },
-    {
-      title: "Node",
-      src: "/images/logos/node.png",
-
-      className: "h-14 w-16",
-    },
-    {
       title: "Firebase",
       src: "/images/logos/firebase.png",
 
       className: "h-10 w-24",
     },
     {
-      title: "Figma",
-      src: "/images/logos/figma.png",
+      title: "MUI",
+      src: "/images/logos/mui.png",
 
-      className: "h-10 w-8",
+      className: "h-10 w-24",
     },
     {
       title: "Tailwind",
       src: "/images/logos/tailwind.png",
 
       className: "h-10 w-24",
-    }
+    },
   ];
   return (
     <div>

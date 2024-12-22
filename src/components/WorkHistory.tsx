@@ -1,13 +1,9 @@
 "use client";
 import { timeline } from "@/constants/timeline";
+import { IconCircleCheckFilled } from "@tabler/icons-react";
 import React from "react";
-import { Paragraph } from "./Paragraph";
 import { Heading } from "./Heading";
-import {
-  IconCheck,
-  IconCheckbox,
-  IconCircleCheckFilled,
-} from "@tabler/icons-react";
+import { Paragraph } from "./Paragraph";
 
 export const WorkHistory = () => {
   return (
@@ -16,11 +12,11 @@ export const WorkHistory = () => {
         <div
           className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-20 relative"
           key={`timeline-${index}`}
-        > 
-        <div className="w-40" style={{minWidth:'8rem'}} >
-        <Paragraph>{item.date}</Paragraph>
-        </div>
-          
+        >
+          <div className="w-40" style={{ minWidth: "10rem" }}>
+            <Paragraph>{item.date}</Paragraph>
+          </div>
+
           <div>
             <Heading
               as="h5"

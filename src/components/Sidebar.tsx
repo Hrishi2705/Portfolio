@@ -1,16 +1,16 @@
 "use client";
 import { navlinks } from "@/constants/navlinks";
+import { socials } from "@/constants/socials";
 import { Navlink } from "@/types/navlink";
+import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
-import { Heading } from "./Heading";
-import { socials } from "@/constants/socials";
 import { Badge } from "./Badge";
-import { AnimatePresence, motion } from "framer-motion";
-import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
+import { Heading } from "./Heading";
 
 const isMobile = () => {
   if (typeof window === "undefined") return false;
@@ -36,7 +36,10 @@ export const Sidebar = () => {
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
-            <Badge href="https://drive.google.com/file/d/1K_32ExXOa0-R2pyuylJc21OwwLQOh-iW/view" text="Read Resume"/>
+            <Badge
+              href="https://drive.google.com/file/d/1A8Jp_KTMdJg8M0NNtEdrG9ztrUilIHLG/view?usp=sharing"
+              text="Read Resume"
+            />
           </motion.div>
         )}
       </AnimatePresence>

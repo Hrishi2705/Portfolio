@@ -1,11 +1,8 @@
 "use client";
-import React, { useState } from "react";
 import { Paragraph } from "@/components/Paragraph";
-import Image from "next/image";
-import { Highlight } from "./Highlight";
-import { Heading } from "./Heading";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Heading } from "./Heading";
 // const defaultFormState = {
 //   name: {
 //     value: "",
@@ -91,7 +88,7 @@ export const Contact = () => {
     //   </button>
     // </form>
     <>
-        <div className="grid grid-cols-1  gap-10">
+      <div className="grid grid-cols-1  gap-10">
         <motion.div
           initial={{
             opacity: 0,
@@ -104,11 +101,10 @@ export const Contact = () => {
           transition={{ duration: 0.2, delay: 1 * 0.1 }}
         >
           <Link
-            href="mailto:hrishikeshsamala@gmail.com?Subject=From%20Portfolio!"
+            href="mailto:hrishikesh.sam09@gmail.com?Subject=From%20Portfolio!"
             target="_blank"
-
             className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-            style={{padding:'1rem'}}
+            style={{ padding: "1rem" }}
           >
             <div className="flex flex-col justify-between">
               <div>
@@ -119,14 +115,14 @@ export const Contact = () => {
                   Email me at
                 </Heading>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    hrishikeshsamala@gmail.com
+                  hrishikesh.sam09@gmail.com
                 </Paragraph>
               </div>
             </div>
           </Link>
         </motion.div>
-    </div>
-    <div className="grid grid-cols-1  gap-10" style={{marginTop:'2rem'}}>
+      </div>
+      <div className="grid grid-cols-1  gap-10" style={{ marginTop: "2rem" }}>
         <motion.div
           initial={{
             opacity: 0,
@@ -141,9 +137,8 @@ export const Contact = () => {
           <Link
             href="https://wa.me/916281948386"
             target="_blank"
-
             className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-            style={{padding:'1rem'}}
+            style={{ padding: "1rem" }}
           >
             <div className="flex flex-col justify-between">
               <div>
@@ -154,14 +149,14 @@ export const Contact = () => {
                   Whatsapp/Call via
                 </Heading>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    6821948386
+                  6821948386
                 </Paragraph>
               </div>
             </div>
           </Link>
         </motion.div>
-    </div>
-    <div className="grid grid-cols-1  gap-10" style={{marginTop:'2rem'}}>
+      </div>
+      <div className="grid grid-cols-1  gap-10" style={{ marginTop: "2rem" }}>
         <motion.div
           initial={{
             opacity: 0,
@@ -176,9 +171,8 @@ export const Contact = () => {
           <Link
             href="https://www.linkedin.com/in/hrishikesh-samala-16b415203/"
             target="_blank"
-
             className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-            style={{padding:'1rem'}}
+            style={{ padding: "1rem" }}
           >
             <div className="flex flex-col justify-between">
               <div>
@@ -189,13 +183,13 @@ export const Contact = () => {
                   Or you can find me on LinkedIn
                 </Heading>
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    Hrishikesh Samala ↗
+                  Hrishikesh Samala ↗
                 </Paragraph>
               </div>
             </div>
           </Link>
         </motion.div>
-    </div>
+      </div>
     </>
   );
 };

@@ -1,7 +1,6 @@
 import Image from "next/image";
-import React from "react";
-import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
+import { Heading } from "./Heading";
 
 export const Languages = () => {
   const stack = [
@@ -16,6 +15,12 @@ export const Languages = () => {
       src: "/images/logos/python.png",
 
       className: "h-12 w-24",
+    },
+    {
+      title: "TypeScript",
+      src: "/images/logos/typescript.png",
+
+      className: "h-11 w-12",
     },
     {
       title: "HTML",
@@ -34,7 +39,7 @@ export const Languages = () => {
       src: "/images/logos/sql.png",
 
       className: "h-12 w-24",
-    }
+    },
   ];
   return (
     <div>
